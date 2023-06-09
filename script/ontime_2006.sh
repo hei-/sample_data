@@ -11,7 +11,7 @@ wget --no-check-certificate "https://transtats.bts.gov/PREZIP/On_Time_Reporting_
 unzip On_Time_*_${year}_${month}.zip
 
 # gen data
-arr=( "10001" "100001" )
+arr=( "11" "10001" "100001" )
 
 for n in "${arr[@]}"
 do
